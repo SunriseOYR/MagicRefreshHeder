@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C951AA4720A0778300642B73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C951AA4620A0778300642B73 /* AppDelegate.m */; };
+		C951AA4A20A0778300642B73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C951AA4920A0778300642B73 /* ViewController.m */; };
+		C951AA4D20A0778300642B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C951AA4B20A0778300642B73 /* Main.storyboard */; };
+		C951AA4F20A0778F00642B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C951AA4E20A0778F00642B73 /* Assets.xcassets */; };
+		C951AA5220A0778F00642B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C951AA5020A0778F00642B73 /* LaunchScreen.storyboard */; };
+		C951AA5520A0778F00642B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C951AA5420A0778F00642B73 /* main.m */; };
+		C951AA5F20A0778F00642B73 /* MagicRefreshHederTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C951AA5E20A0778F00642B73 /* MagicRefreshHederTests.m */; };
+		C951AA6A20A0778F00642B73 /* MagicRefreshHederUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C951AA6920A0778F00642B73 /* MagicRefreshHederUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C951AA5B20A0778F00642B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C951AA3A20A0778300642B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C951AA4120A0778300642B73;
+			remoteInfo = MagicRefreshHeder;
+		};
+		C951AA6620A0778F00642B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C951AA3A20A0778300642B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C951AA4120A0778300642B73;
+			remoteInfo = MagicRefreshHeder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C951AA4220A0778300642B73 /* MagicRefreshHeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicRefreshHeder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C951AA4520A0778300642B73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C951AA4620A0778300642B73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C951AA4820A0778300642B73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C951AA4920A0778300642B73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C951AA4C20A0778300642B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C951AA4E20A0778F00642B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C951AA5120A0778F00642B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C951AA5320A0778F00642B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C951AA5420A0778F00642B73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C951AA5A20A0778F00642B73 /* MagicRefreshHederTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicRefreshHederTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C951AA5E20A0778F00642B73 /* MagicRefreshHederTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicRefreshHederTests.m; sourceTree = "<group>"; };
+		C951AA6020A0778F00642B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C951AA6520A0778F00642B73 /* MagicRefreshHederUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicRefreshHederUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C951AA6920A0778F00642B73 /* MagicRefreshHederUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicRefreshHederUITests.m; sourceTree = "<group>"; };
+		C951AA6B20A0778F00642B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C951AA3F20A0778300642B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C951AA5720A0778F00642B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C951AA6220A0778F00642B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C951AA3920A0778300642B73 = {
+			isa = PBXGroup;
+			children = (
+				C951AA4420A0778300642B73 /* MagicRefreshHeder */,
+				C951AA5D20A0778F00642B73 /* MagicRefreshHederTests */,
+				C951AA6820A0778F00642B73 /* MagicRefreshHederUITests */,
+				C951AA4320A0778300642B73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C951AA4320A0778300642B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C951AA4220A0778300642B73 /* MagicRefreshHeder.app */,
+				C951AA5A20A0778F00642B73 /* MagicRefreshHederTests.xctest */,
+				C951AA6520A0778F00642B73 /* MagicRefreshHederUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C951AA4420A0778300642B73 /* MagicRefreshHeder */ = {
+			isa = PBXGroup;
+			children = (
+				C951AA4520A0778300642B73 /* AppDelegate.h */,
+				C951AA4620A0778300642B73 /* AppDelegate.m */,
+				C951AA4820A0778300642B73 /* ViewController.h */,
+				C951AA4920A0778300642B73 /* ViewController.m */,
+				C951AA4B20A0778300642B73 /* Main.storyboard */,
+				C951AA4E20A0778F00642B73 /* Assets.xcassets */,
+				C951AA5020A0778F00642B73 /* LaunchScreen.storyboard */,
+				C951AA5320A0778F00642B73 /* Info.plist */,
+				C951AA5420A0778F00642B73 /* main.m */,
+			);
+			path = MagicRefreshHeder;
+			sourceTree = "<group>";
+		};
+		C951AA5D20A0778F00642B73 /* MagicRefreshHederTests */ = {
+			isa = PBXGroup;
+			children = (
+				C951AA5E20A0778F00642B73 /* MagicRefreshHederTests.m */,
+				C951AA6020A0778F00642B73 /* Info.plist */,
+			);
+			path = MagicRefreshHederTests;
+			sourceTree = "<group>";
+		};
+		C951AA6820A0778F00642B73 /* MagicRefreshHederUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C951AA6920A0778F00642B73 /* MagicRefreshHederUITests.m */,
+				C951AA6B20A0778F00642B73 /* Info.plist */,
+			);
+			path = MagicRefreshHederUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C951AA4120A0778300642B73 /* MagicRefreshHeder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C951AA6E20A0778F00642B73 /* Build configuration list for PBXNativeTarget "MagicRefreshHeder" */;
+			buildPhases = (
+				C951AA3E20A0778300642B73 /* Sources */,
+				C951AA3F20A0778300642B73 /* Frameworks */,
+				C951AA4020A0778300642B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicRefreshHeder;
+			productName = MagicRefreshHeder;
+			productReference = C951AA4220A0778300642B73 /* MagicRefreshHeder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C951AA5920A0778F00642B73 /* MagicRefreshHederTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C951AA7120A0778F00642B73 /* Build configuration list for PBXNativeTarget "MagicRefreshHederTests" */;
+			buildPhases = (
+				C951AA5620A0778F00642B73 /* Sources */,
+				C951AA5720A0778F00642B73 /* Frameworks */,
+				C951AA5820A0778F00642B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C951AA5C20A0778F00642B73 /* PBXTargetDependency */,
+			);
+			name = MagicRefreshHederTests;
+			productName = MagicRefreshHederTests;
+			productReference = C951AA5A20A0778F00642B73 /* MagicRefreshHederTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C951AA6420A0778F00642B73 /* MagicRefreshHederUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C951AA7420A0778F00642B73 /* Build configuration list for PBXNativeTarget "MagicRefreshHederUITests" */;
+			buildPhases = (
+				C951AA6120A0778F00642B73 /* Sources */,
+				C951AA6220A0778F00642B73 /* Frameworks */,
+				C951AA6320A0778F00642B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C951AA6720A0778F00642B73 /* PBXTargetDependency */,
+			);
+			name = MagicRefreshHederUITests;
+			productName = MagicRefreshHederUITests;
+			productReference = C951AA6520A0778F00642B73 /* MagicRefreshHederUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C951AA3A20A0778300642B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "欧阳荣";
+				TargetAttributes = {
+					C951AA4120A0778300642B73 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					C951AA5920A0778F00642B73 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C951AA4120A0778300642B73;
+					};
+					C951AA6420A0778F00642B73 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C951AA4120A0778300642B73;
+					};
+				};
+			};
+			buildConfigurationList = C951AA3D20A0778300642B73 /* Build configuration list for PBXProject "MagicRefreshHeder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C951AA3920A0778300642B73;
+			productRefGroup = C951AA4320A0778300642B73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C951AA4120A0778300642B73 /* MagicRefreshHeder */,
+				C951AA5920A0778F00642B73 /* MagicRefreshHederTests */,
+				C951AA6420A0778F00642B73 /* MagicRefreshHederUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C951AA4020A0778300642B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C951AA5220A0778F00642B73 /* LaunchScreen.storyboard in Resources */,
+				C951AA4F20A0778F00642B73 /* Assets.xcassets in Resources */,
+				C951AA4D20A0778300642B73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C951AA5820A0778F00642B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C951AA6320A0778F00642B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C951AA3E20A0778300642B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C951AA4A20A0778300642B73 /* ViewController.m in Sources */,
+				C951AA5520A0778F00642B73 /* main.m in Sources */,
+				C951AA4720A0778300642B73 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C951AA5620A0778F00642B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C951AA5F20A0778F00642B73 /* MagicRefreshHederTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C951AA6120A0778F00642B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C951AA6A20A0778F00642B73 /* MagicRefreshHederUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C951AA5C20A0778F00642B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C951AA4120A0778300642B73 /* MagicRefreshHeder */;
+			targetProxy = C951AA5B20A0778F00642B73 /* PBXContainerItemProxy */;
+		};
+		C951AA6720A0778F00642B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C951AA4120A0778300642B73 /* MagicRefreshHeder */;
+			targetProxy = C951AA6620A0778F00642B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C951AA4B20A0778300642B73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C951AA4C20A0778300642B73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C951AA5020A0778F00642B73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C951AA5120A0778F00642B73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C951AA6C20A0778F00642B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C951AA6D20A0778F00642B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C951AA6F20A0778F00642B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicRefreshHeder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicRefreshHeder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C951AA7020A0778F00642B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicRefreshHeder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicRefreshHeder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C951AA7220A0778F00642B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicRefreshHederTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicRefreshHederTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicRefreshHeder.app/MagicRefreshHeder";
+			};
+			name = Debug;
+		};
+		C951AA7320A0778F00642B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicRefreshHederTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicRefreshHederTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicRefreshHeder.app/MagicRefreshHeder";
+			};
+			name = Release;
+		};
+		C951AA7520A0778F00642B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicRefreshHederUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicRefreshHederUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicRefreshHeder;
+			};
+			name = Debug;
+		};
+		C951AA7620A0778F00642B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicRefreshHederUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicRefreshHederUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicRefreshHeder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C951AA3D20A0778300642B73 /* Build configuration list for PBXProject "MagicRefreshHeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C951AA6C20A0778F00642B73 /* Debug */,
+				C951AA6D20A0778F00642B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C951AA6E20A0778F00642B73 /* Build configuration list for PBXNativeTarget "MagicRefreshHeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C951AA6F20A0778F00642B73 /* Debug */,
+				C951AA7020A0778F00642B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C951AA7120A0778F00642B73 /* Build configuration list for PBXNativeTarget "MagicRefreshHederTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C951AA7220A0778F00642B73 /* Debug */,
+				C951AA7320A0778F00642B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C951AA7420A0778F00642B73 /* Build configuration list for PBXNativeTarget "MagicRefreshHederUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C951AA7520A0778F00642B73 /* Debug */,
+				C951AA7620A0778F00642B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C951AA3A20A0778300642B73 /* Project object */;
+}
