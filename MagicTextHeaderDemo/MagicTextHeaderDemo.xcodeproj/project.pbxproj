@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D22202AA005E5AD56E85AFD /* libPods-MagicTextHeaderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9F5A9BF0A5788E51088A02 /* libPods-MagicTextHeaderDemo.a */; };
+		4280231DF78065A2DAF251A6 /* libPods-MagicTextHeaderDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5C8DE1AEBCDAA1804DF996 /* libPods-MagicTextHeaderDemoUITests.a */; };
+		79356F2707F4F80BCAD8D3EB /* libPods-MagicTextHeaderDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C490D218AA4630A04380543 /* libPods-MagicTextHeaderDemoTests.a */; };
+		C9CFFE7820A184E200E16288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFE7720A184E200E16288 /* AppDelegate.m */; };
+		C9CFFE7B20A184E200E16288 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFE7A20A184E200E16288 /* ViewController.m */; };
+		C9CFFE7E20A184E200E16288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFE7C20A184E200E16288 /* Main.storyboard */; };
+		C9CFFE8020A184EC00E16288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFE7F20A184EC00E16288 /* Assets.xcassets */; };
+		C9CFFE8320A184EC00E16288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFE8120A184EC00E16288 /* LaunchScreen.storyboard */; };
+		C9CFFE8620A184EC00E16288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFE8520A184EC00E16288 /* main.m */; };
+		C9CFFE9020A184EC00E16288 /* MagicTextHeaderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFE8F20A184EC00E16288 /* MagicTextHeaderDemoTests.m */; };
+		C9CFFE9B20A184EC00E16288 /* MagicTextHeaderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFE9A20A184EC00E16288 /* MagicTextHeaderDemoUITests.m */; };
+		C9CFFEA920A187C800E16288 /* draw.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEA820A187C800E16288 /* draw.png */; };
+		C9CFFEAB20A187D900E16288 /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEAA20A187D800E16288 /* pen.png */; };
+		C9CFFEBD20A1887D00E16288 /* ORMagicTextConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEB820A1887D00E16288 /* ORMagicTextConfiger.m */; };
+		C9CFFEBE20A1887D00E16288 /* ORMagicTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEBA20A1887D00E16288 /* ORMagicTextLayer.m */; };
+		C9CFFEBF20A1887D00E16288 /* XWRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEBC20A1887D00E16288 /* XWRefreshNormalHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9CFFE8C20A184EC00E16288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CFFE6B20A184E200E16288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9CFFE7220A184E200E16288;
+			remoteInfo = MagicTextHeaderDemo;
+		};
+		C9CFFE9720A184EC00E16288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CFFE6B20A184E200E16288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9CFFE7220A184E200E16288;
+			remoteInfo = MagicTextHeaderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9F5A9BF0A5788E51088A02 /* libPods-MagicTextHeaderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicTextHeaderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F473B129BBE1F3833481D0 /* Pods-MagicTextHeaderDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTextHeaderDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTextHeaderDemoUITests/Pods-MagicTextHeaderDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C490D218AA4630A04380543 /* libPods-MagicTextHeaderDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicTextHeaderDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C7954E2B7F0F1343840DBC /* Pods-MagicTextHeaderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTextHeaderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTextHeaderDemo/Pods-MagicTextHeaderDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9B5C8DE1AEBCDAA1804DF996 /* libPods-MagicTextHeaderDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicTextHeaderDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4650E89DFF82A2D7EB0F65 /* Pods-MagicTextHeaderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTextHeaderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTextHeaderDemo/Pods-MagicTextHeaderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AF9BA795E65CC3CD39C4CAAF /* Pods-MagicTextHeaderDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTextHeaderDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTextHeaderDemoTests/Pods-MagicTextHeaderDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9CFFE7320A184E200E16288 /* MagicTextHeaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicTextHeaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CFFE7620A184E200E16288 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9CFFE7720A184E200E16288 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9CFFE7920A184E200E16288 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9CFFE7A20A184E200E16288 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9CFFE7D20A184E200E16288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9CFFE7F20A184EC00E16288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9CFFE8220A184EC00E16288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9CFFE8420A184EC00E16288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9CFFE8520A184EC00E16288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9CFFE8B20A184EC00E16288 /* MagicTextHeaderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicTextHeaderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CFFE8F20A184EC00E16288 /* MagicTextHeaderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicTextHeaderDemoTests.m; sourceTree = "<group>"; };
+		C9CFFE9120A184EC00E16288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9CFFE9620A184EC00E16288 /* MagicTextHeaderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicTextHeaderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CFFE9A20A184EC00E16288 /* MagicTextHeaderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicTextHeaderDemoUITests.m; sourceTree = "<group>"; };
+		C9CFFE9C20A184EC00E16288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9CFFEA820A187C800E16288 /* draw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draw.png; sourceTree = "<group>"; };
+		C9CFFEAA20A187D800E16288 /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen.png; sourceTree = "<group>"; };
+		C9CFFEB720A1887D00E16288 /* ORMagicTextConfiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORMagicTextConfiger.h; sourceTree = "<group>"; };
+		C9CFFEB820A1887D00E16288 /* ORMagicTextConfiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORMagicTextConfiger.m; sourceTree = "<group>"; };
+		C9CFFEB920A1887D00E16288 /* ORMagicTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORMagicTextLayer.h; sourceTree = "<group>"; };
+		C9CFFEBA20A1887D00E16288 /* ORMagicTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORMagicTextLayer.m; sourceTree = "<group>"; };
+		C9CFFEBB20A1887D00E16288 /* XWRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWRefreshNormalHeader.h; sourceTree = "<group>"; };
+		C9CFFEBC20A1887D00E16288 /* XWRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWRefreshNormalHeader.m; sourceTree = "<group>"; };
+		D675FD06B1D4FB034004D93B /* Pods-MagicTextHeaderDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTextHeaderDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTextHeaderDemoUITests/Pods-MagicTextHeaderDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DACEE321543073ACAF16C3CF /* Pods-MagicTextHeaderDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTextHeaderDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTextHeaderDemoTests/Pods-MagicTextHeaderDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9CFFE7020A184E200E16288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D22202AA005E5AD56E85AFD /* libPods-MagicTextHeaderDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CFFE8820A184EC00E16288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79356F2707F4F80BCAD8D3EB /* libPods-MagicTextHeaderDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CFFE9320A184EC00E16288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4280231DF78065A2DAF251A6 /* libPods-MagicTextHeaderDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81644981604BDBF1670B8B99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA4650E89DFF82A2D7EB0F65 /* Pods-MagicTextHeaderDemo.debug.xcconfig */,
+				59C7954E2B7F0F1343840DBC /* Pods-MagicTextHeaderDemo.release.xcconfig */,
+				AF9BA795E65CC3CD39C4CAAF /* Pods-MagicTextHeaderDemoTests.debug.xcconfig */,
+				DACEE321543073ACAF16C3CF /* Pods-MagicTextHeaderDemoTests.release.xcconfig */,
+				D675FD06B1D4FB034004D93B /* Pods-MagicTextHeaderDemoUITests.debug.xcconfig */,
+				18F473B129BBE1F3833481D0 /* Pods-MagicTextHeaderDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E525EAEADE5D4D5192A90EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D9F5A9BF0A5788E51088A02 /* libPods-MagicTextHeaderDemo.a */,
+				3C490D218AA4630A04380543 /* libPods-MagicTextHeaderDemoTests.a */,
+				9B5C8DE1AEBCDAA1804DF996 /* libPods-MagicTextHeaderDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CFFE6A20A184E200E16288 = {
+			isa = PBXGroup;
+			children = (
+				C9CFFE7520A184E200E16288 /* MagicTextHeaderDemo */,
+				C9CFFE8E20A184EC00E16288 /* MagicTextHeaderDemoTests */,
+				C9CFFE9920A184EC00E16288 /* MagicTextHeaderDemoUITests */,
+				C9CFFE7420A184E200E16288 /* Products */,
+				81644981604BDBF1670B8B99 /* Pods */,
+				9E525EAEADE5D4D5192A90EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9CFFE7420A184E200E16288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFFE7320A184E200E16288 /* MagicTextHeaderDemo.app */,
+				C9CFFE8B20A184EC00E16288 /* MagicTextHeaderDemoTests.xctest */,
+				C9CFFE9620A184EC00E16288 /* MagicTextHeaderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9CFFE7520A184E200E16288 /* MagicTextHeaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFFEB620A1887D00E16288 /* MagicTextHeder */,
+				C9CFFEA820A187C800E16288 /* draw.png */,
+				C9CFFEAA20A187D800E16288 /* pen.png */,
+				C9CFFE7620A184E200E16288 /* AppDelegate.h */,
+				C9CFFE7720A184E200E16288 /* AppDelegate.m */,
+				C9CFFE7920A184E200E16288 /* ViewController.h */,
+				C9CFFE7A20A184E200E16288 /* ViewController.m */,
+				C9CFFE7C20A184E200E16288 /* Main.storyboard */,
+				C9CFFE7F20A184EC00E16288 /* Assets.xcassets */,
+				C9CFFE8120A184EC00E16288 /* LaunchScreen.storyboard */,
+				C9CFFE8420A184EC00E16288 /* Info.plist */,
+				C9CFFE8520A184EC00E16288 /* main.m */,
+			);
+			path = MagicTextHeaderDemo;
+			sourceTree = "<group>";
+		};
+		C9CFFE8E20A184EC00E16288 /* MagicTextHeaderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFFE8F20A184EC00E16288 /* MagicTextHeaderDemoTests.m */,
+				C9CFFE9120A184EC00E16288 /* Info.plist */,
+			);
+			path = MagicTextHeaderDemoTests;
+			sourceTree = "<group>";
+		};
+		C9CFFE9920A184EC00E16288 /* MagicTextHeaderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFFE9A20A184EC00E16288 /* MagicTextHeaderDemoUITests.m */,
+				C9CFFE9C20A184EC00E16288 /* Info.plist */,
+			);
+			path = MagicTextHeaderDemoUITests;
+			sourceTree = "<group>";
+		};
+		C9CFFEB620A1887D00E16288 /* MagicTextHeder */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFFEB720A1887D00E16288 /* ORMagicTextConfiger.h */,
+				C9CFFEB820A1887D00E16288 /* ORMagicTextConfiger.m */,
+				C9CFFEB920A1887D00E16288 /* ORMagicTextLayer.h */,
+				C9CFFEBA20A1887D00E16288 /* ORMagicTextLayer.m */,
+				C9CFFEBB20A1887D00E16288 /* XWRefreshNormalHeader.h */,
+				C9CFFEBC20A1887D00E16288 /* XWRefreshNormalHeader.m */,
+			);
+			path = MagicTextHeder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9CFFE7220A184E200E16288 /* MagicTextHeaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CFFE9F20A184EC00E16288 /* Build configuration list for PBXNativeTarget "MagicTextHeaderDemo" */;
+			buildPhases = (
+				9E2283036307197436A0B795 /* [CP] Check Pods Manifest.lock */,
+				C9CFFE6F20A184E200E16288 /* Sources */,
+				C9CFFE7020A184E200E16288 /* Frameworks */,
+				C9CFFE7120A184E200E16288 /* Resources */,
+				999F1AF744EC8B7B47AE6EF9 /* [CP] Embed Pods Frameworks */,
+				1AC0606279C0DE37984A8C4D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicTextHeaderDemo;
+			productName = MagicTextHeaderDemo;
+			productReference = C9CFFE7320A184E200E16288 /* MagicTextHeaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9CFFE8A20A184EC00E16288 /* MagicTextHeaderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CFFEA220A184EC00E16288 /* Build configuration list for PBXNativeTarget "MagicTextHeaderDemoTests" */;
+			buildPhases = (
+				3478769FE802F7D93FEA253C /* [CP] Check Pods Manifest.lock */,
+				C9CFFE8720A184EC00E16288 /* Sources */,
+				C9CFFE8820A184EC00E16288 /* Frameworks */,
+				C9CFFE8920A184EC00E16288 /* Resources */,
+				476180CC7DDA6FA35ADDB9EC /* [CP] Embed Pods Frameworks */,
+				FCA24D2661DD10A1A57EB51B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9CFFE8D20A184EC00E16288 /* PBXTargetDependency */,
+			);
+			name = MagicTextHeaderDemoTests;
+			productName = MagicTextHeaderDemoTests;
+			productReference = C9CFFE8B20A184EC00E16288 /* MagicTextHeaderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9CFFE9520A184EC00E16288 /* MagicTextHeaderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CFFEA520A184EC00E16288 /* Build configuration list for PBXNativeTarget "MagicTextHeaderDemoUITests" */;
+			buildPhases = (
+				156ED80CB9D1638AD5CD5EAC /* [CP] Check Pods Manifest.lock */,
+				C9CFFE9220A184EC00E16288 /* Sources */,
+				C9CFFE9320A184EC00E16288 /* Frameworks */,
+				C9CFFE9420A184EC00E16288 /* Resources */,
+				27EECA6D6254F9CE1E318899 /* [CP] Embed Pods Frameworks */,
+				90C4A42456AF5EC0EAF13C66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9CFFE9820A184EC00E16288 /* PBXTargetDependency */,
+			);
+			name = MagicTextHeaderDemoUITests;
+			productName = MagicTextHeaderDemoUITests;
+			productReference = C9CFFE9620A184EC00E16288 /* MagicTextHeaderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9CFFE6B20A184E200E16288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "欧阳荣";
+				TargetAttributes = {
+					C9CFFE7220A184E200E16288 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					C9CFFE8A20A184EC00E16288 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C9CFFE7220A184E200E16288;
+					};
+					C9CFFE9520A184EC00E16288 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C9CFFE7220A184E200E16288;
+					};
+				};
+			};
+			buildConfigurationList = C9CFFE6E20A184E200E16288 /* Build configuration list for PBXProject "MagicTextHeaderDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9CFFE6A20A184E200E16288;
+			productRefGroup = C9CFFE7420A184E200E16288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CFFE7220A184E200E16288 /* MagicTextHeaderDemo */,
+				C9CFFE8A20A184EC00E16288 /* MagicTextHeaderDemoTests */,
+				C9CFFE9520A184EC00E16288 /* MagicTextHeaderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9CFFE7120A184E200E16288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CFFE8320A184EC00E16288 /* LaunchScreen.storyboard in Resources */,
+				C9CFFEAB20A187D900E16288 /* pen.png in Resources */,
+				C9CFFEA920A187C800E16288 /* draw.png in Resources */,
+				C9CFFE8020A184EC00E16288 /* Assets.xcassets in Resources */,
+				C9CFFE7E20A184E200E16288 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CFFE8920A184EC00E16288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CFFE9420A184EC00E16288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		156ED80CB9D1638AD5CD5EAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicTextHeaderDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AC0606279C0DE37984A8C4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemo/Pods-MagicTextHeaderDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemo/Pods-MagicTextHeaderDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27EECA6D6254F9CE1E318899 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemoUITests/Pods-MagicTextHeaderDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3478769FE802F7D93FEA253C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicTextHeaderDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		476180CC7DDA6FA35ADDB9EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemoTests/Pods-MagicTextHeaderDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90C4A42456AF5EC0EAF13C66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemoUITests/Pods-MagicTextHeaderDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		999F1AF744EC8B7B47AE6EF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemo/Pods-MagicTextHeaderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2283036307197436A0B795 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicTextHeaderDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA24D2661DD10A1A57EB51B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemoTests/Pods-MagicTextHeaderDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9CFFE6F20A184E200E16288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CFFEBF20A1887D00E16288 /* XWRefreshNormalHeader.m in Sources */,
+				C9CFFEBD20A1887D00E16288 /* ORMagicTextConfiger.m in Sources */,
+				C9CFFEBE20A1887D00E16288 /* ORMagicTextLayer.m in Sources */,
+				C9CFFE7B20A184E200E16288 /* ViewController.m in Sources */,
+				C9CFFE8620A184EC00E16288 /* main.m in Sources */,
+				C9CFFE7820A184E200E16288 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CFFE8720A184EC00E16288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CFFE9020A184EC00E16288 /* MagicTextHeaderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CFFE9220A184EC00E16288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CFFE9B20A184EC00E16288 /* MagicTextHeaderDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9CFFE8D20A184EC00E16288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9CFFE7220A184E200E16288 /* MagicTextHeaderDemo */;
+			targetProxy = C9CFFE8C20A184EC00E16288 /* PBXContainerItemProxy */;
+		};
+		C9CFFE9820A184EC00E16288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9CFFE7220A184E200E16288 /* MagicTextHeaderDemo */;
+			targetProxy = C9CFFE9720A184EC00E16288 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9CFFE7C20A184E200E16288 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CFFE7D20A184E200E16288 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9CFFE8120A184EC00E16288 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CFFE8220A184EC00E16288 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9CFFE9D20A184EC00E16288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9CFFE9E20A184EC00E16288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9CFFEA020A184EC00E16288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA4650E89DFF82A2D7EB0F65 /* Pods-MagicTextHeaderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KUBQ79VTFQ;
+				INFOPLIST_FILE = MagicTextHeaderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicTextHeaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9CFFEA120A184EC00E16288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C7954E2B7F0F1343840DBC /* Pods-MagicTextHeaderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KUBQ79VTFQ;
+				INFOPLIST_FILE = MagicTextHeaderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicTextHeaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9CFFEA320A184EC00E16288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9BA795E65CC3CD39C4CAAF /* Pods-MagicTextHeaderDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicTextHeaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicTextHeaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicTextHeaderDemo.app/MagicTextHeaderDemo";
+			};
+			name = Debug;
+		};
+		C9CFFEA420A184EC00E16288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACEE321543073ACAF16C3CF /* Pods-MagicTextHeaderDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicTextHeaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicTextHeaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicTextHeaderDemo.app/MagicTextHeaderDemo";
+			};
+			name = Release;
+		};
+		C9CFFEA620A184EC00E16288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D675FD06B1D4FB034004D93B /* Pods-MagicTextHeaderDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicTextHeaderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicTextHeaderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicTextHeaderDemo;
+			};
+			name = Debug;
+		};
+		C9CFFEA720A184EC00E16288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F473B129BBE1F3833481D0 /* Pods-MagicTextHeaderDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicTextHeaderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nineton.MagicTextHeaderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicTextHeaderDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9CFFE6E20A184E200E16288 /* Build configuration list for PBXProject "MagicTextHeaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CFFE9D20A184EC00E16288 /* Debug */,
+				C9CFFE9E20A184EC00E16288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CFFE9F20A184EC00E16288 /* Build configuration list for PBXNativeTarget "MagicTextHeaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CFFEA020A184EC00E16288 /* Debug */,
+				C9CFFEA120A184EC00E16288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CFFEA220A184EC00E16288 /* Build configuration list for PBXNativeTarget "MagicTextHeaderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CFFEA320A184EC00E16288 /* Debug */,
+				C9CFFEA420A184EC00E16288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CFFEA520A184EC00E16288 /* Build configuration list for PBXNativeTarget "MagicTextHeaderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CFFEA620A184EC00E16288 /* Debug */,
+				C9CFFEA720A184EC00E16288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9CFFE6B20A184E200E16288 /* Project object */;
+}

@@ -1,0 +1,18 @@
+PODS:
+  - Aspects (1.4.1)
+  - IBProperty (1.1.5):
+    - Aspects (~> 1.4.1)
+  - MJRefresh (3.1.15.3)
+
+DEPENDENCIES:
+  - IBProperty
+  - MJRefresh
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  IBProperty: 04fd2ffdcdfbd3394826e9d2b8aa5777bd991637
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+
+PODFILE CHECKSUM: 7e6ceb0e0339c1e4774ee7106c69bac2f1260cc5
+
+COCOAPODS: 1.4.0
