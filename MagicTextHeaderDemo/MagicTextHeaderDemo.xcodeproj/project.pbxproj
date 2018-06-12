@@ -10,6 +10,9 @@
 		1D22202AA005E5AD56E85AFD /* libPods-MagicTextHeaderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9F5A9BF0A5788E51088A02 /* libPods-MagicTextHeaderDemo.a */; };
 		4280231DF78065A2DAF251A6 /* libPods-MagicTextHeaderDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5C8DE1AEBCDAA1804DF996 /* libPods-MagicTextHeaderDemoUITests.a */; };
 		79356F2707F4F80BCAD8D3EB /* libPods-MagicTextHeaderDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C490D218AA4630A04380543 /* libPods-MagicTextHeaderDemoTests.a */; };
+		C902212E20CE7F000091C77E /* timg-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C902212D20CE7F000091C77E /* timg-2.jpg */; };
+		C902213020CE7F100091C77E /* 110.png in Resources */ = {isa = PBXBuildFile; fileRef = C902212F20CE7F100091C77E /* 110.png */; };
+		C902213220CFDFBA0091C77E /* FZXKJW.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C902213120CFDFB90091C77E /* FZXKJW.TTF */; };
 		C9CFFE7820A184E200E16288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFE7720A184E200E16288 /* AppDelegate.m */; };
 		C9CFFE7B20A184E200E16288 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFE7A20A184E200E16288 /* ViewController.m */; };
 		C9CFFE7E20A184E200E16288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFE7C20A184E200E16288 /* Main.storyboard */; };
@@ -22,7 +25,7 @@
 		C9CFFEAB20A187D900E16288 /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEAA20A187D800E16288 /* pen.png */; };
 		C9CFFEBD20A1887D00E16288 /* ORMagicTextConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEB820A1887D00E16288 /* ORMagicTextConfiger.m */; };
 		C9CFFEBE20A1887D00E16288 /* ORMagicTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEBA20A1887D00E16288 /* ORMagicTextLayer.m */; };
-		C9CFFEBF20A1887D00E16288 /* XWRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEBC20A1887D00E16288 /* XWRefreshNormalHeader.m */; };
+		C9CFFEBF20A1887D00E16288 /* ORRefreshMagicTextHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEBC20A1887D00E16288 /* ORRefreshMagicTextHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		9B5C8DE1AEBCDAA1804DF996 /* libPods-MagicTextHeaderDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicTextHeaderDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4650E89DFF82A2D7EB0F65 /* Pods-MagicTextHeaderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTextHeaderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTextHeaderDemo/Pods-MagicTextHeaderDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AF9BA795E65CC3CD39C4CAAF /* Pods-MagicTextHeaderDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTextHeaderDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTextHeaderDemoTests/Pods-MagicTextHeaderDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C902212D20CE7F000091C77E /* timg-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-2.jpg"; sourceTree = "<group>"; };
+		C902212F20CE7F100091C77E /* 110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 110.png; sourceTree = "<group>"; };
+		C902213120CFDFB90091C77E /* FZXKJW.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZXKJW.TTF; sourceTree = "<group>"; };
 		C9CFFE7320A184E200E16288 /* MagicTextHeaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicTextHeaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CFFE7620A184E200E16288 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9CFFE7720A184E200E16288 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,8 +78,8 @@
 		C9CFFEB820A1887D00E16288 /* ORMagicTextConfiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORMagicTextConfiger.m; sourceTree = "<group>"; };
 		C9CFFEB920A1887D00E16288 /* ORMagicTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORMagicTextLayer.h; sourceTree = "<group>"; };
 		C9CFFEBA20A1887D00E16288 /* ORMagicTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORMagicTextLayer.m; sourceTree = "<group>"; };
-		C9CFFEBB20A1887D00E16288 /* XWRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWRefreshNormalHeader.h; sourceTree = "<group>"; };
-		C9CFFEBC20A1887D00E16288 /* XWRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWRefreshNormalHeader.m; sourceTree = "<group>"; };
+		C9CFFEBB20A1887D00E16288 /* ORRefreshMagicTextHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORRefreshMagicTextHeader.h; sourceTree = "<group>"; };
+		C9CFFEBC20A1887D00E16288 /* ORRefreshMagicTextHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORRefreshMagicTextHeader.m; sourceTree = "<group>"; };
 		D675FD06B1D4FB034004D93B /* Pods-MagicTextHeaderDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTextHeaderDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTextHeaderDemoUITests/Pods-MagicTextHeaderDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DACEE321543073ACAF16C3CF /* Pods-MagicTextHeaderDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTextHeaderDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTextHeaderDemoTests/Pods-MagicTextHeaderDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,16 +161,17 @@
 			isa = PBXGroup;
 			children = (
 				C9CFFEB620A1887D00E16288 /* MagicTextHeder */,
-				C9CFFEA820A187C800E16288 /* draw.png */,
-				C9CFFEAA20A187D800E16288 /* pen.png */,
 				C9CFFE7620A184E200E16288 /* AppDelegate.h */,
 				C9CFFE7720A184E200E16288 /* AppDelegate.m */,
 				C9CFFE7920A184E200E16288 /* ViewController.h */,
 				C9CFFE7A20A184E200E16288 /* ViewController.m */,
+				C902212D20CE7F000091C77E /* timg-2.jpg */,
+				C902212F20CE7F100091C77E /* 110.png */,
 				C9CFFE7C20A184E200E16288 /* Main.storyboard */,
 				C9CFFE7F20A184EC00E16288 /* Assets.xcassets */,
 				C9CFFE8120A184EC00E16288 /* LaunchScreen.storyboard */,
 				C9CFFE8420A184EC00E16288 /* Info.plist */,
+				C902213120CFDFB90091C77E /* FZXKJW.TTF */,
 				C9CFFE8520A184EC00E16288 /* main.m */,
 			);
 			path = MagicTextHeaderDemo;
@@ -195,8 +202,10 @@
 				C9CFFEB820A1887D00E16288 /* ORMagicTextConfiger.m */,
 				C9CFFEB920A1887D00E16288 /* ORMagicTextLayer.h */,
 				C9CFFEBA20A1887D00E16288 /* ORMagicTextLayer.m */,
-				C9CFFEBB20A1887D00E16288 /* XWRefreshNormalHeader.h */,
-				C9CFFEBC20A1887D00E16288 /* XWRefreshNormalHeader.m */,
+				C9CFFEBB20A1887D00E16288 /* ORRefreshMagicTextHeader.h */,
+				C9CFFEBC20A1887D00E16288 /* ORRefreshMagicTextHeader.m */,
+				C9CFFEA820A187C800E16288 /* draw.png */,
+				C9CFFEAA20A187D800E16288 /* pen.png */,
 			);
 			path = MagicTextHeder;
 			sourceTree = "<group>";
@@ -212,7 +221,6 @@
 				C9CFFE6F20A184E200E16288 /* Sources */,
 				C9CFFE7020A184E200E16288 /* Frameworks */,
 				C9CFFE7120A184E200E16288 /* Resources */,
-				999F1AF744EC8B7B47AE6EF9 /* [CP] Embed Pods Frameworks */,
 				1AC0606279C0DE37984A8C4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -232,8 +240,6 @@
 				C9CFFE8720A184EC00E16288 /* Sources */,
 				C9CFFE8820A184EC00E16288 /* Frameworks */,
 				C9CFFE8920A184EC00E16288 /* Resources */,
-				476180CC7DDA6FA35ADDB9EC /* [CP] Embed Pods Frameworks */,
-				FCA24D2661DD10A1A57EB51B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,8 +259,6 @@
 				C9CFFE9220A184EC00E16288 /* Sources */,
 				C9CFFE9320A184EC00E16288 /* Frameworks */,
 				C9CFFE9420A184EC00E16288 /* Resources */,
-				27EECA6D6254F9CE1E318899 /* [CP] Embed Pods Frameworks */,
-				90C4A42456AF5EC0EAF13C66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -315,7 +319,10 @@
 			files = (
 				C9CFFE8320A184EC00E16288 /* LaunchScreen.storyboard in Resources */,
 				C9CFFEAB20A187D900E16288 /* pen.png in Resources */,
+				C902213220CFDFBA0091C77E /* FZXKJW.TTF in Resources */,
+				C902213020CE7F100091C77E /* 110.png in Resources */,
 				C9CFFEA920A187C800E16288 /* draw.png in Resources */,
+				C902212E20CE7F000091C77E /* timg-2.jpg in Resources */,
 				C9CFFE8020A184EC00E16288 /* Assets.xcassets in Resources */,
 				C9CFFE7E20A184E200E16288 /* Main.storyboard in Resources */,
 			);
@@ -374,21 +381,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemo/Pods-MagicTextHeaderDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27EECA6D6254F9CE1E318899 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemoUITests/Pods-MagicTextHeaderDemoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3478769FE802F7D93FEA253C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,51 +397,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		476180CC7DDA6FA35ADDB9EC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemoTests/Pods-MagicTextHeaderDemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		90C4A42456AF5EC0EAF13C66 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemoUITests/Pods-MagicTextHeaderDemoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		999F1AF744EC8B7B47AE6EF9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemo/Pods-MagicTextHeaderDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9E2283036307197436A0B795 /* [CP] Check Pods Manifest.lock */ = {
@@ -470,21 +417,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FCA24D2661DD10A1A57EB51B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTextHeaderDemoTests/Pods-MagicTextHeaderDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -492,7 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9CFFEBF20A1887D00E16288 /* XWRefreshNormalHeader.m in Sources */,
+				C9CFFEBF20A1887D00E16288 /* ORRefreshMagicTextHeader.m in Sources */,
 				C9CFFEBD20A1887D00E16288 /* ORMagicTextConfiger.m in Sources */,
 				C9CFFEBE20A1887D00E16288 /* ORMagicTextLayer.m in Sources */,
 				C9CFFE7B20A184E200E16288 /* ViewController.m in Sources */,
@@ -668,8 +600,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KUBQ79VTFQ;
+				DEVELOPMENT_TEAM = 9PLP5DWUEB;
 				INFOPLIST_FILE = MagicTextHeaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -686,8 +619,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KUBQ79VTFQ;
+				DEVELOPMENT_TEAM = 9PLP5DWUEB;
 				INFOPLIST_FILE = MagicTextHeaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

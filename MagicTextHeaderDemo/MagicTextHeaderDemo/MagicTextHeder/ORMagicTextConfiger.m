@@ -88,7 +88,7 @@
 
 - (UIFont *)font {
     if (!_textFont) {
-        _textFont = [UIFont systemFontOfSize:30 * [UIScreen mainScreen].bounds.size.width / 375.0];
+        _textFont = [UIFont systemFontOfSize:36 * [UIScreen mainScreen].bounds.size.width / 375.0];
     }
     return _textFont;
 }

@@ -146,7 +146,7 @@ static NSString *const kDrawAnimationKey =  @"kDrawAnimationKey";
         self.loadShapeLayer.hidden = NO;
         self.loadShapeLayer.mask = self.maskShapeLayer;
         [self.firstLoadLayer addAnimation:[ORMagicLayerAnimation strokeEndAnimationWithDuration:5.0 begintime:0.1] forKey:kShapeAnimationKey];
-        [self.lastLoadLayer addAnimation:[ORMagicLayerAnimation strokeEndAnimationWithDuration:5.0 begintime:0.2] forKey:kShapeAnimationKey];
+        [self.lastLoadLayer addAnimation:[ORMagicLayerAnimation strokeEndAnimationWithDuration:5.0 begintime:0.3] forKey:kShapeAnimationKey];
     }else if (_loadingStyle == ORloadingStyleGradient) {
         
         self.loadGradientLayer.mask = self.maskShapeLayer;
@@ -155,8 +155,8 @@ static NSString *const kDrawAnimationKey =  @"kDrawAnimationKey";
     }else {
         
         self.drawLayer.hidden = NO;
-        [self.drawLayer addAnimation:[ORMagicLayerAnimation positionAnimationWithDuration:5.0 path:_configer.textPath.CGPath] forKey:kDrawAnimationKey];
-        [self.shapeLayer addAnimation:[ORMagicLayerAnimation strokeEndAnimationWithDuration:5.0 begintime:0] forKey:kShapeAnimationKey];
+        [self.drawLayer addAnimation:[ORMagicLayerAnimation positionAnimationWithDuration:[self drawDuration] path:_configer.textPath.CGPath] forKey:kDrawAnimationKey];
+        [self.shapeLayer addAnimation:[ORMagicLayerAnimation strokeEndAnimationWithDuration:[self drawDuration] begintime:0] forKey:kShapeAnimationKey];
     }
 }
 
@@ -217,6 +217,15 @@ static NSString *const kDrawAnimationKey =  @"kDrawAnimationKey";
     _configer.font = font;
     
     [self _or_updatePath];
+}
+
+- (void)setText:(NSString *)text {
+    _configer.text = text;
+    [self _or_updatePath];
+}
+
+- (NSString *)text {
+    return _configer.text;
 }
 
 
@@ -302,6 +311,10 @@ static NSString *const kDrawAnimationKey =  @"kDrawAnimationKey";
 - (CGFloat)ratio {
     CGRect bounds = CGPathGetBoundingBox(_configer.textPath.CGPath);
     return (self.bounds.size.height - bounds.size.height) / 2.0 / self.bounds.size.height;
+}
+
+- (NSTimeInterval)drawDuration {
+    return self.text.length ;
 }
 
 @end

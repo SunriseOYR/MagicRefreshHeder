@@ -34,7 +34,7 @@ typedef enum : NSUInteger {
 @property (nonatomic, copy) UIColor *tintColor;
 @property (nonatomic, copy) UIColor *maskColor;
 /*
- * ORloadingStyleDraw 时生效
+ * ORloadingStyleDraw 时 生效
  */
 @property (nonatomic, strong) UIImage *drawImage;
 
